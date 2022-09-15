@@ -124,7 +124,7 @@
    * LTS schedule: https://nodejs.org/en/about/releases/
    * LTS versions: https://nodejs.org/en/download/releases/
    */
-  "nodeSupportedVersionRange": ">=12.13.0 <13.0.0 || >=14.15.0 <15.0.0 || >=16.13.0 <17.0.0",
+  "nodeSupportedVersionRange": "=16.17.0",
 
   /**
    * Odd-numbered major versions of Node.js are experimental.  Even-numbered releases
@@ -491,5 +491,17 @@
     //   "reviewCategory": "tools",
     //   "tags": ["tools"]
     // }
+    {
+      "packageName": "hello-camunda",
+      "projectFolder": "apps/hello-camunda",
+      "reviewCategory": "apps",
+      "tags": ["production"]
+    },
+    {
+      "packageName": "duplicate",
+      "projectFolder": "apps/duplicate",
+      "reviewCategory": "apps",
+      "tags": ["production"]
+    }
   ]
 }
